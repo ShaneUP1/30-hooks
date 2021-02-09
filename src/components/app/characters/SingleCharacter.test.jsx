@@ -6,7 +6,7 @@ describe('SingleCharacter component', () => {
   afterEach(() => cleanup());
   it('renders a single character', () => {
     const { asFragment } = render(<SingleCharacter
-      name={'shane'} image={'www.url.com'} species={'toad'}
+      name={'shane'} image={'www.url.com'} species={'toad'} id={1}
     />);
     expect(asFragment()).toMatchSnapshot();
   });

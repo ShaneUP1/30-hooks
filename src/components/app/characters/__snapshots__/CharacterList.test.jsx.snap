@@ -24,22 +24,3 @@ exports[`CharacterList component renders a list of characters 1`] = `
   </ul>
 </DocumentFragment>
 `;
-
-exports[`SingleCharacter component renders a single character 1`] = `
-<DocumentFragment>
-  <figure>
-    <img
-      alt="shane"
-      src="www.url.com"
-    />
-    <figcaption>
-      <h2>
-        shane
-      </h2>
-      <p>
-        toad
-      </p>
-    </figcaption>
-  </figure>
-</DocumentFragment>
-`;

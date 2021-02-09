@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 export const getCharacters = () => {
   return fetch('https://rickandmortyapi.com/api/character')
     .then((res) => res.json())
@@ -8,5 +9,9 @@ export const getCharacters = () => {
       species,
       image
     })));
-    
+};
+
+export const getThisCharacter = (id) => {
+  return fetch(`https://rickandmortyapi.com/api/character/${id}`)
+    .then((res) => res.json());
 };

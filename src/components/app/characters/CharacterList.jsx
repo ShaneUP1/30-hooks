@@ -9,6 +9,7 @@ const CharacterList = ({ characters }) => {
         name={character.name}
         species={character.species}
         image={character.image}
+        id={character.id}
       />
     </li>
   ));
@@ -22,7 +23,7 @@ CharacterList.propTypes = {
       id: PropTypes.number.isRequired,
       name: PropTypes.string.isRequired,
       species: PropTypes.string.isRequired,
-      image: PropTypes.string.isRequired
+      image: PropTypes.string.isRequired,
     })
   ).isRequired
 };
