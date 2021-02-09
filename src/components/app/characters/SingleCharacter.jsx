@@ -1,5 +1,5 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from 'react';
+import PropTypes from 'prop-types';
 
 const SingleCharacter = ({ name, species, image }) => (
   <figure>
@@ -10,7 +10,6 @@ const SingleCharacter = ({ name, species, image }) => (
     </figcaption>
   </figure>
 );
-
 
 SingleCharacter.propTypes = {
   name: PropTypes.string.isRequired,

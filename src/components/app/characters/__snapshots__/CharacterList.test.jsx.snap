@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CharacterList component renders a list of characters 1`] = `
+<DocumentFragment>
+  <ul
+    data-testid="characters"
+  >
+    <li>
+      <figure>
+        <img
+          alt="shane"
+          src="www.url.com"
+        />
+        <figcaption>
+          <h2>
+            shane
+          </h2>
+          <p>
+            toad
+          </p>
+        </figcaption>
+      </figure>
+    </li>
+  </ul>
+</DocumentFragment>
+`;
+
+exports[`SingleCharacter component renders a single character 1`] = `
+<DocumentFragment>
+  <figure>
+    <img
+      alt="shane"
+      src="www.url.com"
+    />
+    <figcaption>
+      <h2>
+        shane
+      </h2>
+      <p>
+        toad
+      </p>
+    </figcaption>
+  </figure>
+</DocumentFragment>
+`;
