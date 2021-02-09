@@ -6,20 +6,24 @@ exports[`CharacterList component renders a list of characters 1`] = `
     data-testid="characters"
   >
     <li>
-      <figure>
-        <img
-          alt="shane"
-          src="www.url.com"
-        />
-        <figcaption>
-          <h2>
-            shane
-          </h2>
-          <p>
-            toad
-          </p>
-        </figcaption>
-      </figure>
+      <a
+        href="/details/1"
+      >
+        <figure>
+          <img
+            alt="shane"
+            src="www.url.com"
+          />
+          <figcaption>
+            <h2>
+              shane
+            </h2>
+            <p>
+              toad
+            </p>
+          </figcaption>
+        </figure>
+      </a>
     </li>
   </ul>
 </DocumentFragment>

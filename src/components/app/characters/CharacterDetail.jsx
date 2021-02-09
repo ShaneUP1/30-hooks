@@ -7,7 +7,7 @@ const CharacterDetail = ({ character }) => {
   ));
   
   return (
-    <figure>
+    <figure data-testid="detail">
       <img src={character.image} alt={character.name} />
       <figcaption>
         <h2>{character.name}</h2>

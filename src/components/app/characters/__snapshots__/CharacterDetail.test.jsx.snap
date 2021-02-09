@@ -2,7 +2,9 @@
 
 exports[`CharacterDetail component renders a detail of a character 1`] = `
 <DocumentFragment>
-  <figure>
+  <figure
+    data-testid="detail"
+  >
     <img
       alt="shane"
       src="www.url.com"

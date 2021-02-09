@@ -1,12 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
 const SingleCharacter = ({ name, species, image, id }) => (
   <figure>
-    <Link to={`details/${id}`} >
-      <img src={image} alt={name} />
-    </Link>
+    <img src={image} alt={name} />
     <figcaption>
       <h2>{name}</h2>
       <p>{species}</p>
