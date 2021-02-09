@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CharacterDetail component renders a detail of a character 1`] = `
+<DocumentFragment>
+  <figure>
+    <img
+      alt="shane"
+      src="www.url.com"
+    />
+    <figcaption>
+      <h2>
+        shane
+      </h2>
+      <p>
+        toad
+      </p>
+      <p>
+        earth
+      </p>
+      <ul>
+        <li>
+          https://rickandmortyapi.com/api/episode/1
+        </li>
+      </ul>
+    </figcaption>
+  </figure>
+</DocumentFragment>
+`;
