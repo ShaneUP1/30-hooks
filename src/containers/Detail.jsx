@@ -14,8 +14,9 @@ const Detail = ({ match }) => {
       .then(res => {
         setCharacter(res),
         setLoading(false);
+        
       });
-  });
+  }, []);
   if(loading) return <h1>Be Patient</h1>;
   return <CharacterDetail character={character}/>;
 };

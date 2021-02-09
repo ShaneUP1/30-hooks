@@ -4,7 +4,8 @@ import Detail from './Detail';
 
 describe('Detail Container', () => {
   it('displays a detail screen of a character', async() => {
-    render(<Detail match={{ params: { id: '1' } }} />);
+    render(
+      <Detail match={{ params: { id: '1' } }} />);
 
     screen.getByText('Be Patient');
     const figure = await screen.findByTestId('detail');
